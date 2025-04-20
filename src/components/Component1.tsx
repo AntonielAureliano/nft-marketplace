@@ -1,15 +1,15 @@
-import styles from './Componente1.module.css';
+import styles from './Component1.module.css';
 
 import { Titulo } from './Title';
 import Btn1 from './Btn1';
 
-function Componente1() {
+function Component1() {
 
     return (
         <>
             <div className={styles.bgContainer}>
                 <Titulo>NFT Marketplace</Titulo>
-                <div className={styles.bgComponente1}>
+                <div className={styles.bgComponent1}>
                     <div className={styles.textContainer1}>
                         <h1 className={styles.titleContainer1}>Discover, collect, and sell extraordinary NFTs</h1>
                         <p className={styles.paragraphContainer1}>Enter in this creative world. Discover now the 
@@ -25,4 +25,4 @@ function Componente1() {
     )
 }
 
-export default Componente1;
+export default Component1;
