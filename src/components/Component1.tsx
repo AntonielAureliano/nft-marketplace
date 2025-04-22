@@ -1,14 +1,14 @@
 import styles from './Component1.module.css';
 
-import { Titulo } from './Title';
-import Btn1 from './Btn1';
+import { Heading } from './Heading';
+import Btn1 from './Button/Btn1';
 
 function Component1() {
 
     return (
         <>
             <div className={styles.bgContainer}>
-                <Titulo>NFT Marketplace</Titulo>
+                <Heading>NFT Marketplace</Heading>
                 <div className={styles.bgComponent1}>
                     <div className={styles.textContainer1}>
                         <h1 className={styles.titleContainer1}>Discover, collect, and sell extraordinary NFTs</h1>
