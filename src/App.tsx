@@ -1,15 +1,15 @@
 import './App.css'
 
-import Component1 from './components/Component1';
+import { Banner } from './components/Banner';
 import { Heading } from './components/Heading';
 import Component2 from './components/Component2';
 
 function App() {
   return (
-    <div className='bgApp'>
+    <div>
       <div className="container">
         <div>
-          <Component1 />
+          <Banner />
           <Heading level='h2'>Trending NFTs</Heading>
           <div className='container2'>
             <Component2 />

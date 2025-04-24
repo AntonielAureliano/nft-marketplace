@@ -1,4 +1,4 @@
-.btn {
+.buttonOutline {
     background-color: rgb(60, 16, 233);
     border: solid 1px white;
     border-radius: 16px;
@@ -10,7 +10,18 @@
     width: 140px;
 }
 
-.btn:hover {
+.buttonOutline:hover {
     background-color: rgba(255, 255, 255, 1);
     color: rgba(0, 0, 0, 1);
+}
+
+.buttonSolid {
+    background-color: rgba(17, 4, 122, 1);
+    border-radius: 70px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    height: 34px;
+    width: 106px;
+    
 }

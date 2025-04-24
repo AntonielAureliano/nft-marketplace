@@ -3,8 +3,8 @@
     padding: 0;
 }
 
-.bgComponent1 {
-    background-image: url('../assets/componente1-bg.png');
+.BannerBackground {
+    background-image: url('../../assets/componente1-bg.png');
     background-repeat: no-repeat;
     border-radius: 20px;
     display: flex;
@@ -13,18 +13,18 @@
     
 }
 
-.bgContainer {
+.BannerContainer {
     flex-direction: column;
     height: 450px;
     width: 1090px;
 }
 
-.titleContainer1 {
+.BannerTitle {
     font-size: 2.125rem;
     color: rgba(255, 255, 255, 1);
 }
 
-.textContainer1 {
+.BannerText {
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -32,14 +32,14 @@
     width: 377px;
 }
 
-.paragraphContainer1 {
+.BannerParagraph {
     color: rgba(227, 218, 255, 1);
     font-size: 1rem;    
     line-height: 28px;
 }
 
 
-.btnsContainer1 {
+.BannerButton {
     display: flex;
     gap: 1rem;
     margin-top: 40px;
