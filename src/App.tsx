@@ -2,7 +2,7 @@ import './App.css'
 
 import { Banner } from './components/Banner';
 import { Heading } from './components/Heading';
-import Component2 from './components/Component2';
+import { Card } from './components/Card';
 
 function App() {
   return (
@@ -12,15 +12,15 @@ function App() {
           <Banner />
           <Heading level='h2'>Trending NFTs</Heading>
           <div className='container2'>
-            <Component2 />
-            <Component2 />
-            <Component2 />
+            <Card />
+            <Card />
+            <Card />
           </div>
           <Heading level='h2'>Recently Added</Heading>
           <div className='container2'>
-            <Component2 />
-            <Component2 />
-            <Component2 />
+            <Card />
+            <Card />
+            <Card />
           </div>
         </div>
 

@@ -1,9 +1,9 @@
 
-import styles from './Component2.module.css';
-import imgCard from '../assets/imgCard1.png';
-import Btn2 from './Btn2';
+import styles from './Card.module.css';
+import imgCard from '../../assets/imgCard1.png';
+import { Button } from '../Button';
 
-function Component2() {
+export function Card() {
 
     return (
         <>
@@ -17,11 +17,9 @@ function Component2() {
                 </div>
                 <div className={styles.contentBottom}>
                     <span className={styles.bid}>Current Bid: 0.91 ETH</span>
-                    <Btn2 />
+                    <Button button='solid'>Place Bid</Button>
                 </div>
             </div>
         </>
     )
 }
-
-export default Component2;
