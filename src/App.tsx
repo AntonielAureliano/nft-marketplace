@@ -1,8 +1,6 @@
 import './App.css'
 
-import { Banner } from './components/Banner';
-import { Heading } from './components/Heading';
-import { Card } from './components/Card';
+import { Banner, Heading, Card } from './components';
 
 function App() {
   return (
